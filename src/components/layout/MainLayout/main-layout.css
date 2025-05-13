@@ -1,0 +1,9 @@
+.main-layout__block{
+    display: flex;
+}
+
+
+.main-layout-main{
+    flex-grow: 1;
+}
+

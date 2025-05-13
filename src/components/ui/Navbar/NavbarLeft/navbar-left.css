@@ -1,0 +1,25 @@
+.navbar-left {
+  display: flex;
+  gap: var(--spacing-3);
+  align-items: center;
+  margin-left: var(--spacing-2);
+}
+
+
+.navbar-left__youtubetxtimg {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.navbar-left__youtubeimg {
+  width: var(--spacing-4);
+}
+
+.navbar-left__youtubetxt{
+  font-weight: 500;
+}
+
+.navbar-left__youtubetxt sup {
+  color: var(--supporting-color);
+}

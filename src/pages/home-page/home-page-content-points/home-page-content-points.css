@@ -1,0 +1,19 @@
+.homepagecontentPoints__block {
+  display: flex;
+  gap: var(--spacing-2);
+  width: calc(100vw - 8rem);
+  overflow-x: scroll;
+  padding: var(--spacing-2);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.homepagecontentPoints__content {
+  font-size: var(--spacing-4);
+  border-radius: var(--spacing-2);
+  padding: var(--spacing-1) var(--spacing-2);
+  background-color: var(--background-color);
+}

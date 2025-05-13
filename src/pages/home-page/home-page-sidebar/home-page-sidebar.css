@@ -1,0 +1,18 @@
+.home-page-sidebar__block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3);
+  align-items: center;
+  justify-content: start;
+}
+
+.home-page-sidebar__inneritem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page-sidebar--title {
+  font-size: 10px;
+}

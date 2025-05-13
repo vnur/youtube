@@ -1,0 +1,25 @@
+.navbar-search-list__container{
+    position: absolute;
+    top: var(--spacing-8);
+    left: var(--spacing-1);
+
+
+    display: flex;
+    flex-direction: column; 
+    padding: var(--spacing-2);
+    /* background: var(--background-color); */
+    border-radius: var(--spacing-2);
+  }
+  
+  @media(prefers-color-scheme:dark){
+    .navbar-search-list__container{
+        background-color: var(--background-color);
+    }
+    }
+  
+  .navbar-search-list__block{
+    display: flex;
+    gap: 1rem;
+    width: 35rem;
+    padding: var(--spacing-2);
+  }

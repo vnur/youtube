@@ -1,0 +1,28 @@
+/*! header desktop  */
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  backdrop-filter: blur(20px);
+}
+
+nav ul {
+  margin: var(--spacing-3);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--spacing-7);
+
+}
+
+
+
+
+/*! common  */
+:is(.btn1, .btn2, .btn3 .searchButtons, .leftArrowCover, .micButton):hover {
+  background-color: #aaaaaab2;
+}
